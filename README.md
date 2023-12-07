@@ -9,7 +9,8 @@
 * To improve the forecasting performances of Bayesian Structural Time Series Model
 1. Comparison of BSTS Model and ETS Model
 2. BSTS model prediction using ETS results (Model form, Prior)
-3. Comparison of forecasting performances by time series length
+3. Comparison of predictive performances for small sample sizes
+4. Comparison of predictive performances by time series length
 
 ## **Usage Program and Data**
 1. Programming Language : R
