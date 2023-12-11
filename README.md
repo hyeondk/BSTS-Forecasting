@@ -3,7 +3,6 @@
 * Title : A Study on the Improvement of Forecasting Performances of Bayesian Structural Time Series Model
 * Title(Korean) : 베이지안 구조 시계열 모형의 예측력 향상을 위한 연구
 * Purpose : Writing a master's thesis at Chung-Ang University
-* Periods : 2023.10.01. ~ 2023.12.31.
 
 ## **Research Objectives**
 * To improve the forecasting performances of Bayesian Structural Time Series Model
