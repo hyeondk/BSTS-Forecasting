@@ -1,6 +1,6 @@
 ### Code : BSTS and ETS Comparison
 ### Writer : Donghyeon Kim
-### Update : 2023.11.21.
+### Update : 2023.12.27.
 
 ################################
 ### Package ###
@@ -66,6 +66,11 @@ bsts_model <- function(y) {
 y <- M3[[2051]]$x
 y %>% ts.plot(., main='M650(Industry) Monthly Plot', ylab='Value')
 
+png(filename=paste0(dr, '/', '1. M650 Industry_Monthly Plot.png'),
+    width=24, height=24, units='cm', res=300)
+y %>% ts.plot(., main='M650(Industry) Monthly Plot', ylab='Value')
+dev.off()
+
 ## Future Data
 yf <- M3[[2051]]$xx
 
@@ -113,6 +118,11 @@ plot(bsts_m, 'comp')
 ## Historical Data
 y <- M3[[1154]]$x
 y %>% ts.plot(., main='Q509(Macro) Quarterly Plot', ylab='Value')
+
+png(filename=paste0(dr, '/', '2. Q509 Macro_Quarterly Plot.png'),
+    width=24, height=24, units='cm', res=300)
+y %>% ts.plot(., main='Q509(Macro) Quarterly Plot', ylab='Value')
+dev.off()
 
 ## Future Data
 yf <- M3[[1154]]$xx
